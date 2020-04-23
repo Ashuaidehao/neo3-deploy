@@ -1,5 +1,5 @@
 ﻿{
   "PluginConfiguration": {
-    "MaxOnImportHeight": 0
+    "Path": "Data_LevelDB_{0}"
   }
 }
