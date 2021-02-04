@@ -1,5 +1,15 @@
 {
   "runtimeOptions": {
-    "tfm": "netcoreapp3.0"
+    "tfm": "net5.0",
+    "includedFrameworks": [
+      {
+        "name": "Microsoft.NETCore.App",
+        "version": "5.0.0"
+      },
+      {
+        "name": "Microsoft.AspNetCore.App",
+        "version": "5.0.0"
+      }
+    ]
   }
 }
