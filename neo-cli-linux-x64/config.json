@@ -10,8 +10,8 @@
       "Path": "Data_LevelDB_{0}"
     },
     "P2P": {
-      "Port": 20333,
-      "WsPort": 20334
+      "Port": 30333,
+      "WsPort": 30334
     },
     "UnlockWallet": {
       "Path": "",
