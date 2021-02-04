@@ -1,7 +1,7 @@
 {
   "PluginConfiguration": {
     "BindAddress": "127.0.0.1",
-    "Port": 10332,
+    "Port": 30332,
     "SslCert": "",
     "SslCertPassword": "",
     "TrustedAuthorities": [],
@@ -10,6 +10,6 @@
     "MaxGasInvoke": 20,
     "MaxFee": 0.1,
     "MaxConcurrentConnections": 40,
-    "DisabledMethods": [ "openwallet" ]
+    "DisabledMethods": [ ]
   }
 }
