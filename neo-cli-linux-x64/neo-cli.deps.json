@@ -7,9 +7,9 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {},
     ".NETCoreApp,Version=v5.0/linux-x64": {
-      "neo-cli/3.0.0-rc4": {
+      "neo-cli/3.0.0": {
         "dependencies": {
-          "Neo": "3.0.0-rc4",
+          "Neo": "3.0.0",
           "Neo.ConsoleService": "1.1.0",
           "runtimepack.Microsoft.NETCore.App.Runtime.linux-x64": "5.0.0",
           "runtimepack.Microsoft.AspNetCore.App.Runtime.linux-x64": "5.0.0"
@@ -1426,13 +1426,13 @@
           "Microsoft.NETCore.Platforms": "5.0.0"
         }
       },
-      "Neo/3.0.0-rc4": {
+      "Neo/3.0.0": {
         "dependencies": {
           "Akka": "1.4.21",
           "BouncyCastle.NetCore": "1.8.8",
           "K4os.Compression.LZ4": "1.2.6",
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.8",
-          "Neo.VM": "3.0.0-rc4"
+          "Neo.VM": "3.0.0"
         },
         "runtime": {
           "lib/net5.0/Neo.dll": {
@@ -1441,7 +1441,7 @@
           }
         }
       },
-      "Neo.VM/3.0.0-rc4": {
+      "Neo.VM/3.0.0": {
         "runtime": {
           "lib/net5.0/Neo.VM.dll": {
             "assemblyVersion": "3.0.0.0",
@@ -1675,7 +1675,7 @@
     }
   },
   "libraries": {
-    "neo-cli/3.0.0-rc4": {
+    "neo-cli/3.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1865,19 +1865,19 @@
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
     },
-    "Neo/3.0.0-rc4": {
+    "Neo/3.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-s3tHRq7Y1RGD5G8PSkfPnCn6THSgLtOrPzbOmKwK0M912ZXnJVt0NY81BitOGzX7NqgUQlWbqJ0KfE7a+sPDvA==",
-      "path": "neo/3.0.0-rc4",
-      "hashPath": "neo.3.0.0-rc4.nupkg.sha512"
+      "sha512": "sha512-FlC4HfEF6K3tk9dk/yj9FD7AnFi/O2ItrkMJBv34BzIksFLFfUiLTUX8YycmPx+3mAhTg6CzHAA/XHP9fgG03A==",
+      "path": "neo/3.0.0",
+      "hashPath": "neo.3.0.0.nupkg.sha512"
     },
-    "Neo.VM/3.0.0-rc4": {
+    "Neo.VM/3.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-PK8hsmz7Z19EKSNugCEtwAaw5y0Dh61hI/NNOYLooS2xfxs2kCgmeqqj4q3j1ucmlfFhWlp2F8KC3/XlZjbxXw==",
-      "path": "neo.vm/3.0.0-rc4",
-      "hashPath": "neo.vm.3.0.0-rc4.nupkg.sha512"
+      "sha512": "sha512-UZKR1gi97VyFjp3LvnxvMuhN5XI2H2Fu67iemmmXCSvHnK3S7/TSS3ftgLGHmZ15FhLOmpCdoRRwg6vF9hafCw==",
+      "path": "neo.vm/3.0.0",
+      "hashPath": "neo.vm.3.0.0.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.1": {
       "type": "package",
