@@ -7,18 +7,20 @@
     },
     "Storage": {
       "Engine": "LevelDBStore",
-      "Path": "Data_LevelDB_{0}"
+      "Path": "Data_LevelDB_TestNet"
     },
     "P2P": {
-      "Port": 30333,
-      "WsPort": 30334
+      "Port": 20333,
+      "WsPort": 20334,
+      "MinDesiredConnections": 10,
+      "MaxConnections": 40,
+      "MaxConnectionsPerAddress": 3
     },
     "UnlockWallet": {
       "Path": "",
       "Password": "",
       "IsActive": false
-    },
-    "PluginURL": "https://github.com/neo-project/neo-modules/releases/download/v{1}/{0}.zip"
+    }
   },
   "ProtocolConfiguration": {
     "Network": 877933390,
